@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+.list{
+  margin-top: 6%
+}
+.ionic_ratings{
+  margin-top: 200px;
+}.ionic_ratings .icon {
+  font-size:50px;
+}
+.spinner svg {
+  margin-top: 50%;
+  margin-left: 50%;
+  width: 28px;
+  height: 28px;
+  stroke: #444;
+  fill: #444;
+}

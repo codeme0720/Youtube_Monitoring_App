@@ -1,0 +1,14 @@
+<ion-view cache-view="false" >
+  <div class="bar bar-header bar-dark">
+    <h1 class="title">{{query}}</h1>
+  </div>
+  <ion-content>
+    <section class="list">
+      <article class ="item item-thumbnail-left" ng-repeat="dataSec in listData"  ng-click="sendtoPlayer($event,{{dataSec}})">
+        <img ng-src="{{dataSec.snippet.thumbnails.default.url}}">
+        <h2>{{dataSec.snippet.title}}</h2>
+        <p>{{dataSec.snippet.description}}</p>
+      </article>
+    </section>
+  </ion-content>
+</ion-view>

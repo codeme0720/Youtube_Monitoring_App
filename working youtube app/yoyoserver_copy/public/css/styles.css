@@ -1,0 +1,24 @@
+.cardHere{
+  width: 50%;
+  margin:0 auto;
+  margin-top:10px;
+}
+.imgAvatar{
+  width: 10%;
+}
+.list{
+  margin-top: 100px;
+}
+.w3-circle{
+  margin-left: 10px;
+  margin-top: 10px;
+
+  height: 60px;
+  width: 60px;
+}
+.title{
+  margin-left: 5px;
+}
+.channelTitle{
+  margin-left: 5px;
+}

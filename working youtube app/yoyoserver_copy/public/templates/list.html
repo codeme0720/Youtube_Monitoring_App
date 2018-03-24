@@ -1,0 +1,9 @@
+<div class="listPick">
+  <div class="list">
+      <div class="w3-card w3-hover-shadow cardHere" ng-repeat="dataSec in listData" ng-click="sendtoGraph($event , $index)">
+        <img src ="{{dataSec.url}}" class = "w3-left w3-circle">
+        <h4 class ="title">{{dataSec.title}}</h4>
+        <h5 class="channelTitle">{{dataSec.channelTitle}}</h5>
+      </div>
+  </div>
+</div>

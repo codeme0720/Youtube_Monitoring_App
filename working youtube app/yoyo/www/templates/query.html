@@ -1,0 +1,12 @@
+<ion-view cache-view="false" >
+
+  <div class="bar bar-header bar-dark item-input-inset">
+    <label class="item-input-wrapper">
+      <i class="icon ion-ios-search placeholder-icon"></i>
+      <input id="txtholder" type="search" placeholder="Search" ng-keyup="$event.keyCode == 13 && sendQuery($event)">
+    </label>
+    <button class="button" ng-click="cancelQuery($event)">
+      Cancel
+    </button>
+  </div>
+</ion-view>
