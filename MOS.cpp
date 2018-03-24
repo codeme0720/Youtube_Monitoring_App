@@ -54,7 +54,8 @@ int main () {
     rebufftime += (float)numf/1000;
     //cout<<totalevents<<" "<<rebuffevents<<" "<<rebufftime<<" "<<totaltime<<endl;
 
-    float Trebuff = (float)rebufftime/rebuffevents;
+    float Trebuff = 0;
+    if(rebuffevents == 0)  Trebuff = (float)rebufftime/rebuffevents;
     float Frebuff = (float)rebufftime/totaltime;
     float loadtimef = (float)loadtime/1000;
     cout<<"Length of the video: "<<totaltime<<endl;
